@@ -6,7 +6,7 @@ Simple example on how to run hsqldb server in server mode from spring-boot. The 
 
 ## Why?
 
-See [this question]() in StackOverflow.
+After running my app I want to be able to connect to my db from a third party client like [squirrel](https://squirrel-sql.sourceforge.io/) 
 
 ## How?
 ```
@@ -26,4 +26,8 @@ $ curl http://localhost:8080/accounts
 ## Thanks
 
 Model and SQL scripts taken from [spring academy labs](https://spring.academy/courses/spring-boot)
+
+## References
+- [How to correctly integrate HSQLDB with Spring Boot?](https://stackoverflow.com/questions/70006118/how-to-correctly-integrate-hsqldb-with-spring-boot)
+- [Hyper SQL Server](https://hsqldb.org/doc/guide/listeners-chapt.html#lsc_hsql_server)
 
